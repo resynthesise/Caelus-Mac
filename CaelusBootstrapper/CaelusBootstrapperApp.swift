@@ -46,24 +46,24 @@ struct CaelusBootstrapperApp: App {
         let raw = protargs.replacingOccurrences(of: "caelus-launcher://", with: "")
         
         guard let tickstart = raw.range(of: "gameinfo:")?.upperBound else {
-            showErrorAndExit(message: "Missing gameinfo, please make a ticket and report this error.")
+            showErrorAndExit(message: "Missing gameinfo. Please try and rejoin, if that does not help make a ticket with this error on our Discord.")
             return
         }
         let ticksub = raw[tickstart...]
         let tick = ticksub.split(separator: "+").first.map { String($0) } ?? ""
         if tick.isEmpty {
-            showErrorAndExit(message: "Authticket is invalid, try rejoining? If that does not fix it please make a ticket and report this error.")
+            showErrorAndExit(message: "Authticket is invalid. Please try and rejoin, if that does not help make a ticket with this error on our Discord.")
             return
         }
         
         guard let scriptstart = raw.range(of: "placelauncherurl:")?.upperBound else {
-            showErrorAndExit(message: "Missing placeid, try rejoining? If that does not fix it please make a ticket and report this error.")
+            showErrorAndExit(message: "Missing placeid. Please try and rejoin, if that does not help make a ticket with this error on our Discord.")
             return
         }
         let scriptsub = raw[scriptstart...]
         let scriptURL = scriptsub.split(separator: "+").first.map { String($0) } ?? ""
         if scriptURL.isEmpty {
-            showErrorAndExit(message: "Invalid scriptURL, please make a ticket and report this error.")
+            showErrorAndExit(message: "Invalid scriptURL. Please try and rejoin, if that does not help make a ticket with this error on our Discord.")
             return
         }
         
