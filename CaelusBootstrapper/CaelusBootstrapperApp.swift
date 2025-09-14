@@ -17,9 +17,7 @@ class BootstrapperDelegate: NSObject, NSApplicationDelegate {
 
 @main
 struct CaelusBootstrapperApp: App {
-
     static var shared: CaelusBootstrapperApp?
-
     @NSApplicationDelegateAdaptor(BootstrapperDelegate.self) var delegate
 
     init() {
@@ -66,7 +64,6 @@ struct CaelusBootstrapperApp: App {
             showErrorAndExit(message: "Invalid scriptURL. Please try and rejoin, if that does not help make a ticket with this error on our Discord.")
             return
         }
-        
         launchclient(tick: tick, scriptURL: scriptURL, authURL: "https://www.caelus.lol/Login/Negotiate.ashx")
     }
     
@@ -78,7 +75,6 @@ struct CaelusBootstrapperApp: App {
         let task = Process()
         task.executableURL = URL(fileURLWithPath: clientpath)
         task.arguments = ["-authURL", authURL, "-ticket", tick, "-scriptURL", scriptURL]
-        
         task.standardOutput = FileHandle.nullDevice
         task.standardError = FileHandle.nullDevice
         task.standardInput = nil
