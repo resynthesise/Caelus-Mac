@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BreakpadReportInterval</key>
+	<string>0</string>
+	<key>BreakpadSendAndExit</key>
+	<string>NO</string>
+	<key>BreakpadSkipConfirm</key>
+	<string>YES</string>
+	<key>BreakpadVendor</key>
+	<string>Roblox</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>RobloxPlayer</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.roblox.RobloxPlayer</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Roblox</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.445.0.410316</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>410316</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7</string>
+	<key>LSMultipleInstancesProhibited</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs access to your microphone for voice chat.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>RbxBaseUrl</key>
+	<string>http://www.caelus.lol/</string>
+	<key>RbxInstallHost</key>
+	<string>setup.caelus.lol</string>
+	<key>RbxStartPath</key>
+	<string></string>
+</dict>
+</plist>

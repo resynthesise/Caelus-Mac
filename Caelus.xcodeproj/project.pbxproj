@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A182BB2E76E12600AB771B /* RobloxPlayer.app in Resources */ = {isa = PBXBuildFile; fileRef = 12A182BA2E76E12600AB771B /* RobloxPlayer.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A1829C2E76DB9B00AB771B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A182852E76DB9A00AB771B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A1828C2E76DB9A00AB771B;
+			remoteInfo = CaelusBootstrapper;
+		};
+		12A182A62E76DB9B00AB771B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A182852E76DB9A00AB771B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A1828C2E76DB9A00AB771B;
+			remoteInfo = CaelusBootstrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A1828D2E76DB9A00AB771B /* Caelus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caelus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A1829B2E76DB9B00AB771B /* CaelusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaelusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A182A52E76DB9B00AB771B /* CaelusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaelusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A182BA2E76E12600AB771B /* RobloxPlayer.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = RobloxPlayer.app; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		12A182B92E76DBB200AB771B /* Exceptions for "CaelusBootstrapper" folder in "Caelus" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 12A1828C2E76DB9A00AB771B /* Caelus */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12A1828F2E76DB9A00AB771B /* CaelusBootstrapper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				12A182B92E76DBB200AB771B /* Exceptions for "CaelusBootstrapper" folder in "Caelus" target */,
+			);
+			path = CaelusBootstrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A1828A2E76DB9A00AB771B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A182982E76DB9B00AB771B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A182A22E76DB9B00AB771B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A182842E76DB9A00AB771B = {
+			isa = PBXGroup;
+			children = (
+				12A1828F2E76DB9A00AB771B /* CaelusBootstrapper */,
+				12A1828E2E76DB9A00AB771B /* Products */,
+				12A182BA2E76E12600AB771B /* RobloxPlayer.app */,
+			);
+			sourceTree = "<group>";
+		};
+		12A1828E2E76DB9A00AB771B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A1828D2E76DB9A00AB771B /* Caelus.app */,
+				12A1829B2E76DB9B00AB771B /* CaelusTests.xctest */,
+				12A182A52E76DB9B00AB771B /* CaelusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A1828C2E76DB9A00AB771B /* Caelus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A182AF2E76DB9B00AB771B /* Build configuration list for PBXNativeTarget "Caelus" */;
+			buildPhases = (
+				12A182892E76DB9A00AB771B /* Sources */,
+				12A1828A2E76DB9A00AB771B /* Frameworks */,
+				12A1828B2E76DB9A00AB771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12A1828F2E76DB9A00AB771B /* CaelusBootstrapper */,
+			);
+			name = Caelus;
+			packageProductDependencies = (
+			);
+			productName = CaelusBootstrapper;
+			productReference = 12A1828D2E76DB9A00AB771B /* Caelus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A1829A2E76DB9B00AB771B /* CaelusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A182B22E76DB9B00AB771B /* Build configuration list for PBXNativeTarget "CaelusTests" */;
+			buildPhases = (
+				12A182972E76DB9B00AB771B /* Sources */,
+				12A182982E76DB9B00AB771B /* Frameworks */,
+				12A182992E76DB9B00AB771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A1829D2E76DB9B00AB771B /* PBXTargetDependency */,
+			);
+			name = CaelusTests;
+			packageProductDependencies = (
+			);
+			productName = CaelusBootstrapperTests;
+			productReference = 12A1829B2E76DB9B00AB771B /* CaelusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A182A42E76DB9B00AB771B /* CaelusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A182B52E76DB9B00AB771B /* Build configuration list for PBXNativeTarget "CaelusUITests" */;
+			buildPhases = (
+				12A182A12E76DB9B00AB771B /* Sources */,
+				12A182A22E76DB9B00AB771B /* Frameworks */,
+				12A182A32E76DB9B00AB771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A182A72E76DB9B00AB771B /* PBXTargetDependency */,
+			);
+			name = CaelusUITests;
+			packageProductDependencies = (
+			);
+			productName = CaelusBootstrapperUITests;
+			productReference = 12A182A52E76DB9B00AB771B /* CaelusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A182852E76DB9A00AB771B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					12A1828C2E76DB9A00AB771B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					12A1829A2E76DB9B00AB771B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 12A1828C2E76DB9A00AB771B;
+					};
+					12A182A42E76DB9B00AB771B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 12A1828C2E76DB9A00AB771B;
+					};
+				};
+			};
+			buildConfigurationList = 12A182882E76DB9A00AB771B /* Build configuration list for PBXProject "Caelus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A182842E76DB9A00AB771B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 12A1828E2E76DB9A00AB771B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A1828C2E76DB9A00AB771B /* Caelus */,
+				12A1829A2E76DB9B00AB771B /* CaelusTests */,
+				12A182A42E76DB9B00AB771B /* CaelusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A1828B2E76DB9A00AB771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A182BB2E76E12600AB771B /* RobloxPlayer.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A182992E76DB9B00AB771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A182A32E76DB9B00AB771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A182892E76DB9A00AB771B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A182972E76DB9B00AB771B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A182A12E76DB9B00AB771B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A1829D2E76DB9B00AB771B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A1828C2E76DB9A00AB771B /* Caelus */;
+			targetProxy = 12A1829C2E76DB9B00AB771B /* PBXContainerItemProxy */;
+		};
+		12A182A72E76DB9B00AB771B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A1828C2E76DB9A00AB771B /* Caelus */;
+			targetProxy = 12A182A62E76DB9B00AB771B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12A182AD2E76DB9B00AB771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12A182AE2E76DB9B00AB771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		12A182B02E76DB9B00AB771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CaelusBootstrapper/CaelusBootstrapper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 26;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaelusBootstrapper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = q;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rip.engrv.Caelus;
+				PRODUCT_NAME = Caelus;
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		12A182B12E76DB9B00AB771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CaelusBootstrapper/CaelusBootstrapper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 26;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaelusBootstrapper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = q;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rip.engrv.Caelus;
+				PRODUCT_NAME = Caelus;
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		12A182B32E76DB9B00AB771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rip.engrv.CaelusBootstrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caelus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Caelus";
+			};
+			name = Debug;
+		};
+		12A182B42E76DB9B00AB771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rip.engrv.CaelusBootstrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caelus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Caelus";
+			};
+			name = Release;
+		};
+		12A182B62E76DB9B00AB771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rip.engrv.CaelusBootstrapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CaelusBootstrapper;
+			};
+			name = Debug;
+		};
+		12A182B72E76DB9B00AB771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rip.engrv.CaelusBootstrapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CaelusBootstrapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A182882E76DB9A00AB771B /* Build configuration list for PBXProject "Caelus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A182AD2E76DB9B00AB771B /* Debug */,
+				12A182AE2E76DB9B00AB771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A182AF2E76DB9B00AB771B /* Build configuration list for PBXNativeTarget "Caelus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A182B02E76DB9B00AB771B /* Debug */,
+				12A182B12E76DB9B00AB771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A182B22E76DB9B00AB771B /* Build configuration list for PBXNativeTarget "CaelusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A182B32E76DB9B00AB771B /* Debug */,
+				12A182B42E76DB9B00AB771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A182B52E76DB9B00AB771B /* Build configuration list for PBXNativeTarget "CaelusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A182B62E76DB9B00AB771B /* Debug */,
+				12A182B72E76DB9B00AB771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A182852E76DB9A00AB771B /* Project object */;
+}
