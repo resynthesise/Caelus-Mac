@@ -127,7 +127,7 @@ class bootstrapperview: ObservableObject {
 
     private func gitnew() async -> Bool {
         let currver = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.0.0"
-        guard let latest = URL(string: "https://api.github.com/repos/engrv/Caelus-Mac/releases/latest") else {
+        guard let latest = URL(string: "https://api.github.com/repos/resynthesise/Caelus-Mac/releases/latest") else {
             return false
         }
         do {
@@ -142,7 +142,7 @@ class bootstrapperview: ObservableObject {
     }
 
     private func downupd() async {
-        guard let latest = URL(string: "https://api.github.com/repos/engrv/Caelus-Mac/releases/latest") else {
+        guard let latest = URL(string: "https://api.github.com/repos/resynthesise/Caelus-Mac/releases/latest") else {
             return
         }
         do {
